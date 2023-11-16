@@ -13,8 +13,17 @@ recognition.addEventListener('result', (e) => {
     .map(result => result[0])
     .map(result => result.transcript)
 
-
+  p.textContent = transcript;
+  if(e.results[0].isFinal){
+    p = document.createElement('p');
+    words.appendChild(p);
+  }
+  if(transcript.includes('top')){
+    console.log('+++')
+  }
   console.log(transcript);
 })
+
+recognition.addEventListener('end', recognition.start)
 
 recognition.start();
