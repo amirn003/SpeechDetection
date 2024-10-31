@@ -1,6 +1,6 @@
 # Speech Detection
 
-This project demonstrates a simple speech detection application using the Web Speech API. It captures speech input from the user and displays the transcribed text on the web page.
+This project demonstrates a simple speech detection application using the Web Speech API. It captures speech input from the user and displays the transcribed text on the web page: https://amirn003.github.io/SpeechDetection/
 
 ## Features
 
